@@ -12,4 +12,12 @@ for lr in range(hl):
     print(end='\n')
     hl = count - 1
 
+for row in range(1, height + 1):
+    for col in range(height - row):
+        print(' ', end=' ')
+    print('* '*row, end='\n')
+
+
+
+
 
