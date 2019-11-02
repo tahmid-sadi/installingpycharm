@@ -13,6 +13,7 @@ print(string.find('How'))
 print(string[-5])
 print(string[-3:-1])
 print(string[::-1])
+print(string[-1:-6:-1])
 
 
 def reverse_string(item):
